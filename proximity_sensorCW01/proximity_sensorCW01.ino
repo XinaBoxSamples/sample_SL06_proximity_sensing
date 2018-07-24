@@ -18,8 +18,8 @@
  ***************************************************************************/
 
 #include "Adafruit_APDS9960.h" //include Adafruit library @ https://github.com/adafruit/Adafruit_APDS9960
-#include <xCore.h> //include core library @ https://github.com/xinabox/xOD01
-#include <xOD01.h> //include sensor library @ https://github.com/xinabox/xSW01
+#include <xCore.h> //include core library @ https://github.com/xinabox/xCore
+#include <xOD01.h> //include sensor library @ https://github.com/xinabox/xOD01
 
 //the pin that the interrupt is attached to
 #define INT_PIN 3
