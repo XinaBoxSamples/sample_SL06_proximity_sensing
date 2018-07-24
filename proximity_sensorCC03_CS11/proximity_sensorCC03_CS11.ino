@@ -17,9 +17,9 @@
   BSD license, all text above must be included in any redistribution
  ***************************************************************************/
 
-#include "Adafruit_APDS9960.h"
-#include <xCore.h>
-#include <xOD01.h>
+#include "Adafruit_APDS9960.h" //include Adafruit library @ https://github.com/adafruit/Adafruit_APDS9960
+#include <xCore.h> //include core library @ https://github.com/xinabox/xCore
+#include <xOD01.h> //include sensor library @ https://github.com/xinabox/xOD01
 
 #if defined(ESP8266)
 #define RED   RED
